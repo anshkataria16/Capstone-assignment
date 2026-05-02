@@ -2,9 +2,9 @@ import "./App.css";
 import { useContext } from "react";
 import { PropertyProvider, PropertyContext } from "./context/PropertyContext";
 
-import Navbar from "./components/Navbar";
-import PropertyCard from "./components/PropertyCard";
-import Details from "./components/Details";
+import Navbar from "./Components/Navbar";
+import PropertyCard from "./Components/PropertyCard";
+import Details from "./Components/Details";
 
 function Main() {
   const { filtered, selected } = useContext(PropertyContext);
